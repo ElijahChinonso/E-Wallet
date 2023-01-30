@@ -1,0 +1,114 @@
+.logInForm{
+    width: 500px;
+    margin-top: -610px;
+    margin-left: 880px;
+    display: grid;
+    padding-left: 20px;
+}
+
+.welcomeBack{
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+
+.welcomeBackText{
+    margin-bottom: 60px;
+    margin-left: 130px;
+}
+
+.DivTwo{
+    display: flex;
+}
+
+.checkBoxRememberMe_div{
+    display: flex;
+}
+
+.checkBox{
+    margin-left: -1px;
+    margin-top: 3px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+/*INPUT[type=checkbox]:checked*/
+/* {*/
+/*    background: #55229E;*/
+/* }*/
+.rememberMe{
+    width: 200px;
+    margin-left: 3px;
+}
+
+.letterIAndForgotPassword_div{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+
+.letterI{
+    width: 5px;
+    height: 13px;
+    margin-top: 3px;
+}
+
+.forgotPassword{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.logIn_btn{
+    width: 90%;
+    height: 50px;
+    margin-top: 30px;
+
+    background: #55229E;
+    border: 1.51111px solid #56229E;
+    border-radius: 12.0889px;
+
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.dontHaveAnAccount_div{
+    display: flex;
+    margin-top: 30px;
+}
+
+.dontHaveAnAccount{
+    font-weight: 400;
+    color: #C4C4C4;
+}
+
+.signUp_link{
+    margin-left: 200px;
+}
+
+
+
+/*INPUT[type=checkbox]:focus*/
+/*{*/
+/*    outline: 1px solid rgba(0, 0, 0, 0.2);*/
+/*}*/
+
+/*INPUT[type=checkbox]*/
+/*{*/
+/*    background-color: #DDD;*/
+/*    border-radius: 2px;*/
+/*    appearance: none;*/
+/*    -webkit-appearance: none;*/
+/*    -moz-appearance: none;*/
+/*    width: 17px;*/
+/*    height: 17px;*/
+/*    cursor: pointer;*/
+/*    !*position: relative;*!*/
+/*    !*top: 5px;*!*/
+/*}*/
+
+/*INPUT[type=checkbox]:checked*/
+/*{*/
+/*    background: #55229E url("data:image/gif;base64,R0lGODlhCwAKAIABAP////3cnSH5BAEKAAEALAAAAAALAAoAAAIUjH+AC73WHIsw0UCjglraO20PNhYAOw==") no-repeat 3px 3px;*/
+/*}*/
