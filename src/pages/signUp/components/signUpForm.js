@@ -9,7 +9,7 @@ export default function SignUpForm () {
     const [password, setPassword] = useState('')
         return(
         <div className={'signUpForm_div'}>
-            <form>
+            <form className={'signUpForm'}>
                 <h1 className={'welcome'}>Welcome!</h1>
                 <h5 className={'welcomeText'}>Sign up by entering the information below</h5>
 
