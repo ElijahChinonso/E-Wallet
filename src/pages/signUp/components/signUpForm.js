@@ -1,6 +1,7 @@
 import React from "react";
 import '../styles/signUpForm.css'
 import {useState} from "react";
+import { Link } from "react-router-dom";
 
 export default function SignUpForm () {
     const [firstName, setFirstName] = useState('')
@@ -51,11 +52,13 @@ export default function SignUpForm () {
 
                 <div className={'alreadyHaveAnAccount_div'}>
                     <p className={'already_have_an_account'}>Already have an account?</p>
-                    <a className={'logIn_link'}>Login</a>
+                    <Link to={"/login"}>
+                        <a className={'logIn_link'}>login</a>
+                    </Link>    
                 </div>
 
                 <button className={'signUp_btn'}>Sign Up</button>
             </form>
         </div>
     )
-}
+        }

@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/logInForm.css'
 import { useState } from "react";
 import LetterI from '../../../asset/image/letterI.png'
+import { Link } from 'react-router-dom';
 
 export default function LogInForm (){
     const [email, setEmail] = useState('')
@@ -50,7 +51,9 @@ export default function LogInForm (){
 
                 <div className={'dontHaveAnAccount_div'}>
                     <p className={'dontHaveAnAccount'}>Don't have an Account?</p>
+                  <Link to={"/SignUp"}>
                     <p className={'signUp_link'}>Sign Up</p>
+                  </Link>   
                 </div>
             </form>
         </div>
