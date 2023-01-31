@@ -1,17 +1,17 @@
 import React from "react";
-import '../styles/signUpForm.css'
+import '../styles/verifyAccForm.css'
 import {useState} from "react";
 
-export default function SignUpForm () {
+export default function VerifyAccForm () {
     const [firstName, setFirstName] = useState('')
     const [lastname, setLastName] = useState('')
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
-        return(
-        <div className={'signUpForm_div'}>
-            <form className={'signUpForm'}>
-                <h1 className={'welcome'}>Welcome!</h1>
-                <h5 className={'welcomeText'}>Sign up by entering the information below</h5>
+    return(
+        <div className={'verifyAccForm_div'}>
+            <form className={'verifyAccForm'}>
+                <h1 className={'welcomeV'}>Welcome!</h1>
+                <h5 className={'welcomeTextV'}>Sign up by entering the information below</h5>
 
                 <input
                     value={firstName}
@@ -55,7 +55,11 @@ export default function SignUpForm () {
                 </div>
 
                 <button className={'signUp_btn'}>Sign Up</button>
+                <div className={'transparentDiv'}></div>
+                <div className={'notification'}>Kindly Check your mail to see your OTP number for Account verification</div>
+
             </form>
+
         </div>
     )
 }

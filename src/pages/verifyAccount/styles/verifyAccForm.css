@@ -1,4 +1,4 @@
-.signUpForm{
+.verifyAccForm{
     /*background-color: blue;*/
     width: 500px;
     margin-top: -610px;
@@ -7,7 +7,7 @@
     padding-left: 20px;
 }
 
-.welcome{
+.welcomeV{
     width: 188px;
     height: 32px;
     margin-left: 150px;
@@ -29,7 +29,7 @@
 
 }
 
-.welcomeText{
+.welcomeTextV{
     width: 418px;
     height: 19px;
     margin-left: 65px;
@@ -95,4 +95,26 @@ input::-webkit-input-placeholder{
     color: white;
     font-weight: bold;
     font-size: 20px;
+}
+
+.transparentDiv{
+    width: 157%;
+    height: 769.1px;
+    margin-left: -29%;
+    margin-top: -140%;
+    background-color: rgba(37,32,41,0.4);
+}
+
+.notification{
+    width: 430px;
+    height: 130px;
+    margin-top: -390px;
+    margin-left: 2px;
+    background-color: white;
+    text-align: center;
+
+    padding: 40px;
+    font-weight: 500;
+
+    border-radius: 16.7628px;
 }
