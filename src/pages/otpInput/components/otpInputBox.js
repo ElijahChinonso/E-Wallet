@@ -3,7 +3,6 @@ import '../styles/otpInputBox.css'
 
 
 class OptInputBox extends React.Component{
-    keyPressed;
 
     constructor(props) {
         super(props);

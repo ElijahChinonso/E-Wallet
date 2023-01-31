@@ -95,15 +95,15 @@ input::-webkit-input-placeholder{
     color: white;
     font-weight: bold;
     font-size: 20px;
-}
+}.transparentDiv{
+     width: 157%;
+     height: 769.1px;
+     margin-left: -29%;
+     margin-top: -140%;
+     background-color: rgba(37,32,41,0.4);
+ }
 
-.transparentDiv{
-    width: 157%;
-    height: 769.1px;
-    margin-left: -29%;
-    margin-top: -140%;
-    background-color: rgba(37,32,41,0.4);
-}
+
 
 .notification{
     width: 430px;
